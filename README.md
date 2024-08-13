@@ -89,7 +89,7 @@ You can interact with the DApp using the Cartesi CLI. The DApp accepts inputs in
 
 1. Prepare the hex-encoded input:
    - Open the `src/hex_converter.js` file in a text editor.
-   - Locate the `jsonString` variable and replace its value with your vote JSON. For example:
+   - Locate the `input` constant and replace its value with your vote JSON. For example:
 
      ```javascript
      const input = '{"method":"vote","sender":"0x1234567890123456789012345678901234567890","proposalIndex":0}';

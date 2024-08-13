@@ -1,0 +1,20 @@
+{
+  "name": "voting-dapp",
+  "version": "0.1.0",
+  "description": "Voting DApp on Cartesi",
+  "dependencies": {
+    "ethers": "^6.7.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.2"
+  },
+  "scripts": {
+    "build": "esbuild ./src/index.js --bundle --outfile=dist/index.js --platform=node --target=node20",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "cartesi",
+    "voting"
+  ],
+  "license": "MIT"
+}
